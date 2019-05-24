@@ -1,0 +1,269 @@
+body {
+    direction: rtl;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+.fas,fa-home{
+    color: white;
+    font-weight: bold;
+ margin-left: 5px;
+    font-size: 25pt;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#black {
+    background-color: black;
+}
+#mainNav {
+    position: relative;
+    right: 233px;
+}
+h1 {
+    font-size: 16pt;
+    padding-top: 30px;
+    font-weight:300;
+}
+#mainNav li {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 39px;
+    padding-top:3px;
+    margin-left: 2px;
+    padding: 3px;
+}
+   #banner{
+       position: relative;
+       top: 30px;
+       right: 5px;
+
+   }
+.purple, #send {
+    background-color: rebeccapurple;
+}
+#mainNav li a {
+    display: block;
+    color: white;
+    width: 145px;
+    height: 21px;
+    padding-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14pt;
+  
+   
+}
+#black>a{
+position: relative;
+bottom: 13px;
+}
+header{
+    border-bottom: solid 5px;
+}
+.img {
+    display: inline-block;
+    border-radius: 110px;
+    border: 3px solid;
+    width: 130px;
+    padding: 18px;
+    margin: 40px;
+    position: relative;
+    right: 100px;
+    -webkit-box-shadow: 6px 8px 12px #333333;
+    box-shadow: 6px 8px 12px #333333;
+}
+.js,.css {
+    position: relative;
+    right: 15px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 3px solid black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 190px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 30%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.welcome {
+    clear: both;
+    font-size: 18pt;
+}
+    .welcome p:first-child {
+        text-align: center;
+        padding: 10px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 18pt;
+    }
+.bold {
+    font-weight:bolder;
+}
+
+.icons{
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    display: block;
+    width: 320px;
+    padding: 8px;
+    position: relative;
+    right: 320px;
+    margin-top: 23px;
+    font-size: 17pt;
+
+
+}
+.hotArticle{
+    vertical-align: top;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+height: 240px;
+    width: 210px;
+    padding: 10px;
+    margin: 30px;
+    font-size: 13pt;
+    line-height:1.4;
+}
+.relative{
+    position: relative;
+    right: 50px;
+}
+
+.hotArticle a{
+    margin-right: 133px;
+    position: absolute;
+    bottom: 40px;
+    
+}
+.hotArticle p{
+    float: left;
+}
+h3 {
+
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#newsletter p {
+    margin: 22px;
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+label {
+    position: absolute;
+    margin-right: 30px;
+    font-size: 13pt;
+    font-weight: 500;
+}
+input {
+    position: relative;
+    top: 30px;
+    right: 30px;
+    margin-bottom: 35px;
+    -webkit-box-shadow: 4px 5px 5px 0 #474747;
+    box-shadow: 4px 5px 5px 0 #474747;
+    border: 1px black solid;
+}
+#send {
+    width: 155px;
+    height: 37px;
+    color: white;
+    font-size: 18pt;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 5px;
+}
+#name{
+    width: 243px;
+    height:32px;
+
+}
+form {
+    border-bottom: solid 6px black;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+footer p{
+    text-align:center;
+    font-size:16pt;
+    font-weight: 600;
+}
+#email{
+    width: 309px;
+    height:32px;
+}
+#twitter {
+    background-image: url(../SiteImages/Twitter.png);
+    display: inline-block;
+    width: 50px;
+    height: 43px;
+    background-repeat: no-repeat;
+}
+#facebook {
+    background-image: url(../SiteImages/facebook.png);
+    display: inline-block;
+    width: 50px;
+    height: 54px;
+    background-repeat: no-repeat;
+}
+#wsup {
+    background-image: url(../SiteImages/whatsApp.png);
+    display: inline-block;
+    width: 49px;
+    height: 54px;
+    background-repeat: no-repeat;
+}
+#google {
+    background-image: url(../SiteImages/googlePlus.png);
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+#icons{
+  position: relative;
+  right: 300px;
+  margin-top:10px;
+}
+footer a{
+    margin-right: 25px;
+    margin-bottom: 25px;
+   vertical-align:middle;
+}
